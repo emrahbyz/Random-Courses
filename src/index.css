@@ -1,0 +1,64 @@
+.courseMainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 350px;
+  border: 3px solid rgb(230, 221, 218);
+  border-radius: 30px;
+  padding: 10px;
+  font-weight: 600;
+}
+.cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cardPrice {
+  font-style: italic;
+  color: red;
+  font-weight: 700;
+}
+.cardDeleteBtn {
+  width: 100px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: rgba(77, 8, 109);
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+.cardDeleteBtn:active {
+  scale: 0.9;
+}
+.cardDeleteBtn:hover {
+  background-color: rgb(154, 31, 31);
+}
+.refreshDiv {
+  text-align: center;
+}
+.cardRefreshBtn {
+  width: 200px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: rgb(22, 89, 214);
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+.loadingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  font-size: 45px;
+  color: red;
+}
